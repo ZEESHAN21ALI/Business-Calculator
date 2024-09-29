@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Calculator</h1>
+        <div class="calc-body">
+            <input type="text" placeholder="Enter Value" id="result">
+            <div class="btn">
+                <button onclick="cancel()" style="background-color: orange;">C</button>
+                <button onclick="cclt('+')">+</button>
+                <button onclick="cclt('/')">/</button>
+                <button onclick="cclt('*')">*</button>
+
+                <button onclick="cclt(9)">9</button>
+                <button onclick="cclt(8)">8</button>
+                <button onclick="cclt(7)">7</button>
+                <button onclick="cclt('-')">-</button>
+
+                <button onclick="cclt(6)">6</button>
+                <button onclick="cclt(5)">5</button>
+                <button onclick="cclt(4)">4</button>
+                <button onclick="cclt('.')">.</button>
+
+                <button onclick="cclt(3)">3</button>
+                <button onclick="cclt(2)">2</button>
+                <button onclick="cclt(1)">1</button>
+                <button onclick="sum()" style="background-color: orange;">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
